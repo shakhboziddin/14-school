@@ -1,0 +1,51 @@
+.home {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.524),
+      rgba(0, 0, 0, 0.595)
+    ),
+    url("../images/logo.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero_h1 {
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 140px;
+  font-weight: 700;
+}
+.teachers_main{
+  margin: 50px auto 50px auto;
+}
+.heading{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.teachers{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  margin: auto;
+}
+.card{
+  width: 90%;
+  border: 1px solid grey;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 30px;
+}
+.conent{
+  padding: 10px;
+}
+
+.card img{
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+
+}
