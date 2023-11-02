@@ -1,8 +1,39 @@
-.main{
-    border: 1px solid grey;
-    margin-top: 100px;
+.main {
+  border: 1px solid rgba(210, 208, 208, 0.61);
+  margin-top: 100px;
 }
-.header{
-    text-align: center;
-    
+.header_about {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 40px;
+  color: #0f0f0f;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  gap: 40px;
+  margin: auto;
+}
+.card_div {
+  width: 60%;
+}
+.card_about {
+  width: 90%;
+  gap: 20px;
+  display: flex;
+}
+.card_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  color: #4c4c4c;
+  width: 40%;
+}
+.card_img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 400px;
 }

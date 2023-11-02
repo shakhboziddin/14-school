@@ -1,28 +1,48 @@
-.navbar{
-    border-bottom: 1px solid grey;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding:10px 10px 10px 10px;
-    width: 100%;
-    margin: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #fff;
+.navbar {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.649);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  /* left: ; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #0f0f0f;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.76);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.5px);
+-webkit-backdrop-filter: blur(8.5px);
+border: 1px solid rgba(255, 255, 255, 1);
 }
-.nav_items{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* border: 1px solid grey; */
-    margin-right: 20px;
-    gap: 20px;
+.nav_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid grey; */
+  margin-right: 50px;
+  gap: 20px;
+  width: 15%;
 }
-.item{
-    text-decoration: none;
-    color: #000;
-    font-size: 20px;
-    font-weight: 500;
+.item {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;  
+  font-weight: 500;
+  transition: .2s;
 }
-
+.logo{
+  text-decoration: none;
+  color: #000;
+  font-size: 45px;
+  font-weight: 700;
+  transition: .2s;
+}
+.logo:hover, .item:hover{
+  color: #0230a4;
+}

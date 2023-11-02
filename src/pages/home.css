@@ -9,43 +9,75 @@
   background-position: center;
   background-size: cover;
   display: flex;
+  border: 1px solid grey;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  color: #0f0f0f;
+}
+.explore {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid grey;
+  padding: 10px 30px 10px 30px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  margin-bottom: 38px;
+  border-radius: 3px;
+  background-color: rgba(24, 24, 24, 0.219);
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+}
+.explore:hover {
+  border: 1px solid rgb(177, 177, 177);
+  background-color: rgba(128, 128, 128, 0.346);
 }
 .hero_h1 {
   color: #fff;
-  font-size: 60px;
-  margin-bottom: 140px;
+  font-size: 75px;
+  margin-bottom: 60px;
   font-weight: 700;
+  background: #fff7fb;
+  background: linear-gradient(to right, #fff7fb 25%, #d9d9d9 85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.teachers_main{
+.teachers_main {
   margin: 50px auto 50px auto;
 }
-.heading{
+.icn {
+  font-size: 30px;
+}
+.heading {
   font-size: 50px;
   text-align: center;
   margin-bottom: 50px;
 }
-.teachers{
+.teachers {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   width: 90%;
   margin: auto;
 }
-.card{
+.card {
   width: 90%;
   border: 1px solid grey;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 10px;
   margin-bottom: 30px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
-.conent{
+.conent {
   padding: 10px;
 }
 
-.card img{
+.card img {
   width: 100%;
   object-fit: cover;
   height: 250px;
-
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
