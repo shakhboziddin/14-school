@@ -31,7 +31,7 @@ function Home() {
           <div className="card">
             <img src={boshliq} alt="" />
             <div className="conent">
-              <h1>Boshliq</h1>
+              <h1>teacher</h1>
               <h3>principal</h3>
               <h5>working for a 1years</h5>
             </div>
@@ -39,7 +39,7 @@ function Home() {
           <div className="card">
             <img src={ongqol} alt="" />
             <div className="conent">
-              <h1>OngQol</h1>
+              <h1>teacher</h1>
               <h3>councelor</h3>
               <h5>working for a 1years</h5>
             </div>
@@ -55,7 +55,7 @@ function Home() {
           <div className="card">
             <img src={sardor} alt="" />
             <div className="conent">
-              <h1>Sardor gangster </h1>
+              <h1>teacher</h1>
               <h3>dean</h3>
               <h5>working for a 1years</h5>
             </div>
@@ -63,10 +63,17 @@ function Home() {
           <div className="card">
             <img src={chapqol} alt="" />
             <div className="conent">
-              <h1>chap qol</h1>
+              <h1>teacher</h1>
               <h3>councelor</h3>
               <h5>working for a 1years</h5>
             </div>
+          </div>
+        </div>
+        <div className="learning_enviroment">
+          <div className="content_enviroment">
+              <h1 className="head_learn">LEARNING ENVIROMENT</h1>
+              
+              <p className="parahraph_learn">14-School, endowed with a singular infrastructure of campuses, is situated in a pastoral environment deeply connected to both nature and the world’s cultural and economic center, Balikchi city.</p>
           </div>
         </div>
       </div>

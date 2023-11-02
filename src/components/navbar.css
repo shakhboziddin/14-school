@@ -12,6 +12,7 @@
   left: 0;
   color: #0f0f0f;
   /* From https://css.glass */
+  z-index: 999;
 background: rgba(255, 255, 255, 0.76);
 border-bottom-left-radius: 5px;
 border-bottom-right-radius: 5px;

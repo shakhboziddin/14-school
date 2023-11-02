@@ -81,3 +81,21 @@
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
+
+.learning_enviroment {
+  /* border: 1px solid grey; */
+  width: 98%;
+  padding: 10px;
+  margin: 60px auto 40px auto;
+  color: white;
+  height: 80vh;
+  background: url('../images/home_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+}
+.content_enviroment {
+  border: 1px solid grey;
+  width: 40%;
+}
