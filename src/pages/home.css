@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Roboto+Slab:wght@500&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 .home {
   background-image: linear-gradient(
       to bottom,
@@ -84,18 +86,89 @@
 
 .learning_enviroment {
   /* border: 1px solid grey; */
-  width: 98%;
-  padding: 10px;
+  width: 100%;
   margin: 60px auto 40px auto;
   color: white;
   height: 80vh;
-  background: url('../images/home_bg.jpg');
+  background-attachment: fixed;
+  /* background: url('../images/home_bg.jpg'); */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.524),
+      rgba(0, 0, 0, 0.595)
+    ),
+    url(https://images.squarespace-cdn.com/content/v1/5b9805f050a54faf23a0e31c/1698954499636-2YD4U7MLLET9I6QR27RR/RossSchool_StephCraigStudios_PhotographybyStephanieCraig-6853.jpg?format=2500w);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: center;
 }
 .content_enviroment {
+  width: 80%;
+  padding: 50px;
+  margin: auto;
+}
+.head_learn {
+  font-size: 14px;
+  border-bottom: 1px solid rgb(255, 94, 0);
+  width: 15%;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+}
+.paragraph_learn {
+  font-size: 30px;
+  font-family: "Roboto slab", sans-serif;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.603);
+  padding-bottom: 20px;
+  width: 60%;
+}
+.map {
+  width: 80%;
+  margin: 160px auto 40px auto;
+}
+.map_h1 {
+  border-left: 2px solid red;
+  padding-left: 10px;
+  margin-bottom: 60px;
+}
+.frame_div {
+  margin: auto;
+  width: 100%;
   border: 1px solid grey;
-  width: 40%;
+}
+.map_frame {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+@media (max-width: 1360px) {
+  .teachers {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .teachers {
+    width: 96%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .hero_h1 {
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .teachers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content_enviroment{
+    width: 100%;
+  }
+  .paragraph_learn{
+    width: 100%;
+  }
 }

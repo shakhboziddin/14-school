@@ -23,11 +23,9 @@ function Home() {
         </Link>
       </div>
       <div className="teachers_main">
-        <h1 className="heading" data-aos="fade-up">
-          Teachers
-        </h1>
+        <h1 className="heading">Teachers</h1>
 
-        <div className="teachers" data-aos="fade-up">
+        <div className="teachers" >
           <div className="card">
             <img src={boshliq} alt="" />
             <div className="conent">
@@ -71,9 +69,28 @@ function Home() {
         </div>
         <div className="learning_enviroment">
           <div className="content_enviroment">
-              <h1 className="head_learn">LEARNING ENVIROMENT</h1>
-              
-              <p className="parahraph_learn">14-School, endowed with a singular infrastructure of campuses, is situated in a pastoral environment deeply connected to both nature and the world’s cultural and economic center, Balikchi city.</p>
+            <h1 className="head_learn">LEARNING ENVIROMENT</h1>
+            <p className="paragraph_learn">
+              14-School, endowed with a singular infrastructure of campuses, is
+              situated in a pastoral environment deeply connected to both nature
+              and the world’s cultural and economic center, Balikchi city.
+            </p>
+          </div>
+        </div>
+
+        <div className="map">
+          <h1 className="map_h1">OUR LOCATION</h1>
+          <div className="frame_div">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d753.8710819493141!2d71.8524869008026!3d40.90512530400094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb5a2b7e770683%3A0xae514522837f78a3!2sSecondary%20school%20%E2%84%9614!5e0!3m2!1suz!2s!4v1699018946445!5m2!1suz!2s"
+              width={1000}
+              height={450}
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="map_frame"
+            />
           </div>
         </div>
       </div>

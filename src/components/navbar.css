@@ -1,3 +1,9 @@
+.nav_main {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
 .navbar {
   border-bottom: 1px solid rgba(128, 128, 128, 0.649);
   display: flex;
@@ -7,19 +13,16 @@
   width: 100%;
   margin: auto;
   /* left: ; */
-  position: fixed;
-  top: 0;
-  left: 0;
   color: #0f0f0f;
   /* From https://css.glass */
   z-index: 999;
-background: rgba(255, 255, 255, 0.76);
-border-bottom-left-radius: 5px;
-border-bottom-right-radius: 5px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(8.5px);
--webkit-backdrop-filter: blur(8.5px);
-border: 1px solid rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 0.76);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border: 1px solid rgba(255, 255, 255, 1);
 }
 .nav_items {
   display: flex;
@@ -28,22 +31,88 @@ border: 1px solid rgba(255, 255, 255, 1);
   /* border: 1px solid grey; */
   margin-right: 50px;
   gap: 20px;
-  width: 15%;
+  width: 18%;
+}
+.bar {
+  display: none;
+}
+.bar2 {
+  font-size: 30px;
+}
+.bars {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid grey; */
+  margin-right: 50px;
+  gap: 20px;
+  width: 2%;
 }
 .item {
   text-decoration: none;
   color: #000;
-  font-size: 20px;  
+  font-size: 20px;
   font-weight: 500;
-  transition: .2s;
+  transition: 0.2s;
 }
-.logo{
+.logo {
   text-decoration: none;
   color: #000;
   font-size: 45px;
   font-weight: 700;
-  transition: .2s;
+  transition: 0.2s;
+  text-transform: uppercase;
 }
-.logo:hover, .item:hover{
-  color: #0230a4;
+.logo:hover,
+.item:hover {
+  color: red;
+}
+.parent {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  /* border: 1px solid grey; */
+  position: absolute;
+  transition: 0.5s;
+  right: 0;
+}
+.mobile_div {
+  background: rgba(255, 255, 255, 0.76);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border: 1px solid rgba(255, 255, 255, 1);
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  gap: 10px;
+  padding: 15px;
+  display: none;
+  transition: 0.4s;
+}
+.link_mob {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+@media (max-width: 1165px) {
+  .bars {
+    display: block;
+  }
+  .nav_items {
+    width: 4%;
+  }
+  .bar {
+    display: block;
+    font-size: 30px;
+  }
+  .item {
+    display: none;
+  }
+  .mobile_div {
+    display: flex;
+  }
 }

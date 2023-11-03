@@ -1,14 +1,37 @@
-.main {
-  border: 1px solid rgba(210, 208, 208, 0.61);
+.main_about {
+  /* border: 1px solid rgba(210, 208, 208, 0.61); */
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .header_about {
-  text-align: center;
-  font-size: 50px;
+  padding: 40px;
+  display: flex;
   margin-bottom: 40px;
-  color: #0f0f0f;
+  color: #ffffff;
+  border: 1px solid grey;
+  flex-direction: column;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(29, 29, 29, 0.524),
+      rgba(25, 25, 25, 0.595)
+    ),
+    url("../images/ab_bg.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
 }
-.content {
+.school_div {
+  border-top: 2px solid red;
+  width: 7%;
+  padding-top: 4px;
+}
+.head_div_main{
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.content_cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 90%;
@@ -19,7 +42,7 @@
   width: 60%;
 }
 .card_about {
-  width: 90%;
+  width: 100%;
   gap: 20px;
   display: flex;
 }
@@ -29,11 +52,90 @@
   justify-content: center;
   font-size: 45px;
   color: #4c4c4c;
-  width: 40%;
+  width: 43%;
 }
 .card_img {
   width: 100%;
   object-fit: cover;
   object-position: top;
   height: 400px;
+}
+
+.about_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  margin: 40px auto 200px auto;
+  padding: 10px;
+}
+
+.main_about_head{
+border-left: 2px solid red; padding-left: 25px;
+}
+.paragraph_about_head{
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+
+.img_about_div{
+  width: 40%;
+}
+.img_about{
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+}
+.real_cont{
+  width: 50%;
+}
+.about_other{
+  width: 80%;
+  margin: 150px auto 40px auto;
+}
+.others{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.others div{
+  width: 40%;
+}
+.others img{
+  width: 50%;
+}
+.others p {
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-weight: 600;
+  font-size: 19px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.left{
+  border-left: 2px solid red;
+  padding-left: 20px;
+}
+.right{
+  border-right: 2px solid red;
+  padding-right: 20px;
+  width: 60%;  
+}
+.btn_other{
+  background-color: red;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 30px 10px 30px;
+  transition: .2s;
+  border: 1px solid red;
+}
+.btn_other:hover{
+  background-color: rgba(255, 0, 0, 0.501);
+  color: #4c4c4c;
 }
