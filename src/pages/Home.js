@@ -24,7 +24,7 @@ function Home() {
           <div className="card">
             <img src={boshliq} alt="" />
             <div className="conent">
-              <h1>teacher</h1>
+              <h1>Nurmatova Shakhnoza Kodirovna</h1>
               <h3>principal</h3>
               <h5>working for a 1years</h5>
             </div>
@@ -32,7 +32,7 @@ function Home() {
           <div className="card">
             <img src={ongqol} alt="" />
             <div className="conent">
-              <h1>teacher</h1>
+              <h1>Atakulova Rushana Rafikovna</h1>
               <h3>councelor</h3>
               <h5>working for a 1years</h5>
             </div>
@@ -40,7 +40,7 @@ function Home() {
           <div className="card">
             <img src={dilmurod} alt="" />
             <div className="conent">
-              <h1>Dilmurod </h1>
+              <h1>Xojimurodov Dilmurod Obidjonovich</h1>
               <h3>councelor</h3>
               <h5>working for a 1years</h5>
             </div>
@@ -48,7 +48,7 @@ function Home() {
           <div className="card">
             <img src={sardor} alt="" />
             <div className="conent">
-              <h1>teacher</h1>
+              <h1>Sulaymanov Sardor Abdurashid o'gli</h1>
               <h3>dean</h3>
               <h5>working for a 1years</h5>
             </div>
@@ -56,7 +56,7 @@ function Home() {
           <div className="card">
             <img src={chapqol} alt="" />
             <div className="conent">
-              <h1>teacher</h1>
+              <h1>Achilova Barno Alijanova</h1>
               <h3>councelor</h3>
               <h5>working for a 1years</h5>
             </div>
