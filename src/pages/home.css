@@ -165,10 +165,15 @@
   .teachers {
     grid-template-columns: repeat(2, 1fr);
   }
-  .content_enviroment{
+  .content_enviroment {
     width: 100%;
   }
-  .paragraph_learn{
+  .paragraph_learn {
     width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .teachers {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
