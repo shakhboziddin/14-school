@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import "./home.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 import boshliq from "../images/boshliq.jpg";
 import chapqol from "../images/chap qol.jpg";
@@ -11,9 +9,6 @@ import sardor from "../images/sardor.jpg";
 import { Link } from "react-router-dom";
 
 function Home() {
-  useEffect(() => {
-    Aos.init();
-  }, []);
   return (
     <div>
       <div className="home">
@@ -25,7 +20,7 @@ function Home() {
       <div className="teachers_main">
         <h1 className="heading">Teachers</h1>
 
-        <div className="teachers" >
+        <div className="teachers">
           <div className="card">
             <img src={boshliq} alt="" />
             <div className="conent">
