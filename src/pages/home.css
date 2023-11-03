@@ -175,5 +175,9 @@
 @media (max-width: 600px) {
   .teachers {
     grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+  }
+  .card{
+    margin: auto;
   }
 }
