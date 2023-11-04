@@ -72,7 +72,7 @@ function Contact() {
           <div className="inf">
             <h1>Contact Us</h1>
             <h4>&#x260F; +998 97 991 0380</h4>
-            <h4>&#9993; nurmatovashaxnoza.school14@gmail.com</h4>
+            <h4 className="email_dir">&#9993; nurmatovashaxnoza.school14@gmail.com</h4>
           </div>
           <div className="inf">
             <h1>Reception Hours</h1>

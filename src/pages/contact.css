@@ -33,7 +33,9 @@
   padding-left: 10px;
   margin-top: 120px;
 }
-
+.email_dir {
+  font-size: 14px !important;
+}
 .form {
   width: 50%;
   margin: 90px auto 50px auto;
@@ -113,7 +115,7 @@
 }
 .location {
   width: 50%;
-  margin: 250px auto 50px auto;
+  margin: 100px auto 50px auto;
 }
 .location_head {
   display: flex;
@@ -172,7 +174,8 @@
 
 @media (max-width: 1150px) {
   .form {
-    width: 100%;
+    width: 80%;
+    border: 1px solid red;
   }
   .location {
     width: 90%;
@@ -188,7 +191,7 @@
     text-align: center;
   }
   .newsletter input {
-    width: 60%;
+    width: 50%;
   }
 }
 @media (max-width: 500px) {
@@ -210,6 +213,7 @@
   }
   .form_div input {
     font-size: 20px;
+    width: 50%;
   }
   .form_div input::placeholder {
     font-size: 17px;
