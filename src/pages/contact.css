@@ -174,11 +174,14 @@
 
 @media (max-width: 1150px) {
   .form {
-    width: 80%;
+    width: 100%;
   }
   .location {
     width: 90%;
     /* padding: 10px; */
+  }
+  .form_div {
+    padding-bottom: 10px;
   }
 }
 @media (max-width: 700px) {
@@ -215,7 +218,7 @@
   }
   .form_div input {
     font-size: 20px;
-    width: 50%;
+    width: 70%;
   }
   .form_div input::placeholder {
     font-size: 17px;
