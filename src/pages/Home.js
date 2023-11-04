@@ -26,7 +26,7 @@ function Home() {
             <div className="conent">
               <h1>Nurmatova Shakhnoza Kodirovna</h1>
               <h3>principal</h3>
-              <h5>working for a 1years</h5>
+              <h5>nurmatovashaxnoza.school14@gmail.com</h5>
             </div>
           </div>
           <div className="card">
@@ -42,7 +42,7 @@ function Home() {
             <div className="conent">
               <h1>Xojimurodov Dilmurod Obidjonovich</h1>
               <h3>councelor</h3>
-              <h5>working for a 1years</h5>
+              <h5>hojimurodovdilmurod.school14@gmail.com</h5>
             </div>
           </div>
           <div className="card">
@@ -56,9 +56,9 @@ function Home() {
           <div className="card">
             <img src={chapqol} alt="" />
             <div className="conent">
-              <h1>Achilova Barno Alijanova</h1>
+              <h1>Achilova Barno Alijanovna</h1>
               <h3>councelor</h3>
-              <h5>working for a 1years</h5>
+              <h5>achilovabarno.school14@gmail.com</h5>
             </div>
           </div>
         </div>

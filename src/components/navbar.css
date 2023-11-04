@@ -117,3 +117,8 @@
     display: flex;
   }
 }
+@media (max-width: 500px) {
+  .logo {
+    font-size: 30px;
+  }
+}

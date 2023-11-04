@@ -1,0 +1,216 @@
+.main_contact {
+  width: 100%;
+  margin: 100px auto 0 auto;
+}
+.contact_head {
+  height: 80vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(29, 29, 29, 0.524),
+      rgba(25, 25, 25, 0.595)
+    ),
+    url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Hibbing_High_School_2014.jpg/1200px-Hibbing_High_School_2014.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.anti_bg {
+  width: 80%;
+  color: #fff;
+}
+.school_name {
+  font-size: 24px;
+  border-top: 2px solid red;
+  width: 9%;
+  padding-top: 4px;
+}
+.contact_head_h1 {
+  font-size: 60px;
+  border-left: 1px solid red;
+  padding-left: 10px;
+  margin-top: 120px;
+}
+
+.form {
+  width: 50%;
+  margin: 90px auto 50px auto;
+}
+.form_head {
+  text-align: center;
+}
+.enquiry {
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  border-top: 1px solid red;
+  width: 18%;
+  padding-top: 10px;
+  margin: 20px auto;
+}
+.main_form {
+  width: 80%;
+  margin: 70px auto 30px auto;
+}
+.form_div {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.59);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+.inp_div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+.inp_div input {
+  border: none;
+  font-size: 23px;
+  outline: none;
+}
+.inp_div input::placeholder {
+  color: rgba(0, 0, 0, 0.943);
+  font-size: 20px;
+}
+.name_inp {
+  font-size: 26px;
+  font-weight: 600;
+  color: #787878;
+  width: 30%;
+}
+.star {
+  color: red;
+}
+.btn_div {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn_send {
+  background-color: red;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid red;
+  padding: 10px 80px 10px 80px;
+  transition: 0.3s;
+}
+
+.btn_send:hover {
+  padding: 10px 100px 10px 100px;
+  cursor: pointer;
+  background-color: rgba(0, 128, 0, 0.304);
+  color: rgb(68, 67, 67);
+}
+.location {
+  width: 50%;
+  margin: 250px auto 50px auto;
+}
+.location_head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.location_head h1 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  border-top: 2px solid red;
+  padding-top: 5px;
+}
+.inf {
+  margin: 40px 10px;
+}
+.inf h1 {
+  color: rgb(77, 0, 0);
+}
+.inf h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.newsletter {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(29, 29, 29, 0.524),
+      rgba(25, 25, 25, 0.595)
+    ),
+    url(../images/news.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-direction: column;
+  margin-top: 200px;
+  background-attachment: fixed;
+}
+.newsletter h1 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+.newsletter input {
+  background: #7878785d;
+  border: none;
+  padding: 10px;
+  width: 14%;
+  outline: none;
+  color: white;
+  margin-bottom: -20px;
+}
+
+@media (max-width: 1150px) {
+  .form {
+    width: 100%;
+  }
+  .location {
+    width: 90%;
+    /* padding: 10px; */
+  }
+}
+@media (max-width: 700px) {
+  .anti_bg {
+    width: 95%;
+  }
+  .newsletter h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .newsletter input {
+    width: 60%;
+  }
+}
+@media (max-width: 500px) {
+  .anti_bg h1 {
+    font-size: 33px;
+  }
+  .school_name {
+    font-size: 18px;
+  }
+  .enquiry {
+    font-size: 16px;
+    margin: 50px auto;
+  }
+  .enquiry_h1 {
+    font-size: 30px;
+  }
+  .name_inp {
+    font-size: 20px;
+  }
+  .form_div input {
+    font-size: 20px;
+  }
+  .form_div input::placeholder {
+    font-size: 17px;
+  }
+  .btn_send {
+    font-size: 17px;
+  }
+}

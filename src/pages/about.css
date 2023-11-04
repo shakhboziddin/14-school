@@ -21,14 +21,22 @@
   background-position: center;
   justify-content: center;
 }
+.bord {
+  width: 70%;
+  margin: auto;
+}
 .school_div {
   border-top: 2px solid red;
-  width: 7%;
+  width: 9%;
+  margin-bottom: 30px;
   padding-top: 4px;
 }
-.head_div_main{
+.head_div_main {
   font-size: 50px;
   text-transform: uppercase;
+  border-left: 2px solid red;
+  padding-left: 20px;
+  margin-top: 100px;
 }
 
 .content_cards {
@@ -61,7 +69,7 @@
   height: 400px;
 }
 
-.about_content{
+.about_content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,10 +78,11 @@
   padding: 10px;
 }
 
-.main_about_head{
-border-left: 2px solid red; padding-left: 25px;
+.main_about_head {
+  border-left: 2px solid red;
+  padding-left: 25px;
 }
-.paragraph_about_head{
+.paragraph_about_head {
   letter-spacing: 1px;
   line-height: 25px;
   font-size: 18px;
@@ -81,33 +90,32 @@ border-left: 2px solid red; padding-left: 25px;
   margin-top: 50px;
 }
 
-
-.img_about_div{
+.img_about_div {
   width: 40%;
 }
-.img_about{
+.img_about {
   width: 100%;
   object-fit: cover;
   height: 500px;
 }
-.real_cont{
+.real_cont {
   width: 50%;
 }
-.about_other{
+.about_other {
   width: 80%;
   margin: 150px auto 40px auto;
 }
-.others{
+.others {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
   margin-bottom: 100px;
 }
-.others div{
+.others div {
   width: 40%;
 }
-.others img{
+.others img {
   width: 50%;
 }
 .others p {
@@ -118,24 +126,90 @@ border-left: 2px solid red; padding-left: 25px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.left{
+.left {
   border-left: 2px solid red;
   padding-left: 20px;
 }
-.right{
+.right {
   border-right: 2px solid red;
   padding-right: 20px;
-  width: 60%;  
+  width: 60%;
 }
-.btn_other{
+.btn_other {
   background-color: red;
   text-decoration: none;
   color: #ffffff;
   padding: 10px 30px 10px 30px;
-  transition: .2s;
+  transition: 0.2s;
   border: 1px solid red;
 }
-.btn_other:hover{
+.btn_other:hover {
   background-color: rgba(255, 0, 0, 0.501);
   color: #4c4c4c;
+}
+
+@media (max-width: 1300px) {
+  .card_div {
+    width: 100%;
+  }
+  .card_content {
+    font-size: 30px;
+  }
+}
+@media (max-width: 870px) {
+  .about_content {
+    flex-direction: column;
+    width: 95%;
+  }
+  .real_cont {
+    width: 100%;
+  }
+  .img_about_div {
+    width: 100%;
+  }
+  .bord {
+    width: 100%;
+  }
+  .card_content {
+    width: 60%;
+  }
+  .card_img {
+    width: 100%;
+  }
+  .card_div {
+    width: 80%;
+  }
+  .content_cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about_other {
+    width: 100%;
+    padding: 10px;
+  }
+  .left {
+    font-size: 30px;
+  }
+  .right {
+    font-size: 16px;
+  }
+  .others img {
+    width: 60%;
+  }
+}
+@media (max-width: 600px) {
+  .others {
+    flex-direction: column;
+    border: 1px solid rgba(128, 128, 128, 0.57);
+    border-radius: 5px;
+  }
+  .other_content {
+    width: 100% !important;
+    margin: 30px;
+  }
+  .others img {
+    width: 100%;
+  }
+  .right{
+    width: 30%;
+  }
 }

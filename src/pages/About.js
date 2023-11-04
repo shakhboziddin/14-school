@@ -14,8 +14,10 @@ function About() {
   return (
     <div className="main_about">
       <div className="header_about">
-        <h3 className="school_div">SCHOOL-14</h3>
-        <h1 className="head_div_main">About Our School</h1>
+        <div className="bord">
+          <h3 className="school_div">SCHOOL-14</h3>
+          <h1 className="head_div_main">About Our School</h1>
+        </div>
       </div>
 
       <div className="about_content">
@@ -82,12 +84,14 @@ function About() {
               School-14 was established in 1965 by the USSR. Since then, it has
               been striving to provide quality education for all students.
             </p>
-            <Link className="btn_other" to="/">LEARN MORE</Link>
+            <Link className="btn_other" to="/">
+              LEARN MORE
+            </Link>
           </div>
           <img src={history} alt="" />
         </div>
         <div className="others">
-          <img src={avst  } alt="" />
+          <img src={avst} alt="" />
 
           <div className="other_content">
             <h1 className="right">VISION AND VALUES</h1>
@@ -96,7 +100,9 @@ function About() {
               nurturing creativity, diversity, and a passion for lifelong
               learning.
             </p>
-            <Link className="btn_other" to="/">LEARN MORE</Link>
+            <Link className="btn_other" to="/">
+              LEARN MORE
+            </Link>
           </div>
         </div>
       </div>
