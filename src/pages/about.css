@@ -183,8 +183,8 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .about_other {
-    width: 100%;
-    padding: 10px;
+    width: 95%;
+    /* padding: 10px; */
   }
   .left {
     font-size: 30px;
@@ -209,7 +209,7 @@
   .others img {
     width: 100%;
   }
-  .right{
+  .right {
     width: 30%;
   }
 }
