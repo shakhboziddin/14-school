@@ -175,7 +175,6 @@
 @media (max-width: 1150px) {
   .form {
     width: 80%;
-    border: 1px solid red;
   }
   .location {
     width: 90%;
@@ -192,6 +191,9 @@
   }
   .newsletter input {
     width: 50%;
+  }
+  .main_contact {
+    margin-top: 70px;
   }
 }
 @media (max-width: 500px) {
