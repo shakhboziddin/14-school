@@ -37,6 +37,11 @@
 .form {
   width: 50%;
   margin: 90px auto 50px auto;
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .form_head {
   text-align: center;
@@ -46,7 +51,7 @@
   letter-spacing: 3px;
   font-weight: 500;
   border-top: 1px solid red;
-  width: 18%;
+  width: 50%;
   padding-top: 10px;
   margin: 20px auto;
 }
