@@ -56,13 +56,13 @@ function Navbar() {
         }}
       >
         <div className="mobile_div">
-          <Link className="link_mob" to={"/"}>
+          <Link className="link_mob" onClick={check2} to={"/"}>
             Home
           </Link>
-          <Link className="link_mob" to={"/about"}>
+          <Link className="link_mob" onClick={check2} to={"/about"}>
             About
           </Link>
-          <Link className="link_mob" to={"/contact"}>
+          <Link className="link_mob" onClick={check2} to={"/contact"}>
             Contact
           </Link>
 
