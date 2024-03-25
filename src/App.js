@@ -11,15 +11,15 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        {/* <Navbar />
+        <Navbar />
         <Routes>
           <Route path="/" Component={Home} />
           <Route path="/about" Component={About} />
           <Route path="/contact" Component={Contact} />
           <Route path="*" Component={Notfound} />
         </Routes>
-        <Footer /> */}
-        <Err />
+        <Footer />
+        {/* <Err /> */}
       </BrowserRouter>
     </div>
   );
